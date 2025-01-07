@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* FONTES */
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.crimson-text-medium-500 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* Principal TOPO */  
+header{
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+#text-presentation-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#text-presentation{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#nomesite{
+    text-decoration: none;
+    text-shadow: 5px 5px black;
+}
+.text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+}
+.round-image{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 35%;
+    margin-top: 20px;
+    border: 1px rgb(100, 0, 100) solid;
+    box-shadow: 0px 0px 25px 0px rgb(100, 0, 100);
+}
+.sun{
+    width: 20px;
+}
+#darkmode-switch{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 25px 0px purple;
+    cursor: pointer;
+}
+
+#cevaipaga{
+    opacity: 0.7;
+    margin-left: 50%;
+}
+#name-title{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 40%;
+    text-decoration: none;
+}
+#main-top-frame{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 36.95rem;
+    text-align: bottom;
+}
+/* DARKMODE STUFF */
+.claro{
+    background-color: white;
+}
+.escuro{
+    background-color: black;
+}
+.claro-button{
+    background-color: aqua;
+}
+.escuro-button{
+    background-color: rgb(110, 0, 110);
+}
+.header-claro{
+    background-color: darkgrey;
+}
+.header-escuro{
+    background-color: rgb(30, 30, 30);
+}
+.body-color{
+    color: white;
+}
+.border-dark{
+    border: 1px rgb(100, 0, 100) solid;
+    box-shadow: 0px 0px 25px 0px rgb(100, 0, 100);
+}
+.border-light{
+    border: 1px aqua solid;
+    box-shadow: 0px 0px 25px 0px aqua;
+}
+/* Principal MEIO */
+#main-mid-frame{
+    width: 100%;
+    height: 40.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#socials {
+    width: 55%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 1px rgb(100, 0, 100) solid;
+    box-shadow: 0px 0px 25px 0px rgb(100, 0, 100);
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.cards {
+    margin: 5px;
+    width: 25%;
+}
+.button {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+}
+#twitter {
+    background-image: url(https://img.freepik.com/vetores-gratis/aplicativo-do-twitter-novo-logotipo-x-em-fundo-preto_1017-45425.jpg?semt=ais_hybrid);
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: 500ms;
+}
+#twitter:hover {
+    transform: translateY(-50px) translateX(-10px) scale(1.1);
+    filter: none;
+    z-index: 9;
+    box-shadow: 5px 15px 5px black;
+    transition: 500ms;
+}
+#instagram {
+    background-image: url(https://img.freepik.com/vetores-gratis/instagram-logo_1199-122.jpg?t=st=1729968012~exp=1729971612~hmac=82ab605697eb5f3ef715cdf1c98720fc54a43ef6fa9f9632c778016bf52e32cb&w=740);
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: 500ms;
+}
+#instagram:hover {
+    transform: translateY(-50px) scale(1.1);
+    filter: none;
+    z-index: 9;
+    box-shadow: 0px 15px 5px black;
+    transition: 500ms;
+}
+#twitch {
+    background-image: url(https://ih1.redbubble.net/image.930930999.7662/flat,750x1000,075,t.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: 500ms;
+}
+#twitch:hover {
+    transform: translateY(-50px) scale(1.1);
+    filter: none;
+    z-index: 9;
+    transition: 500ms;
+    box-shadow: 0px 15px 5px black;
+}
+#tiktok {
+    background-image: url(https://img.freepik.com/vetores-premium/adesivo-do-logotipo-do-tiktok_941327-31.jpg?semt=ais_hybrid);
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: 500ms;
+}
+#tiktok:hover {
+    transform: translateY(-50px) translateX(10px) scale(1.1);
+    filter: none;
+    z-index: 9;
+    box-shadow: -5px 15px 5px black;
+    transition: 500ms;
+}
+
+/* lower frame */
+#main-lower-frame{
+    margin: 0;
+    width: 100%;
+    height: 40.1rem;
+    padding-top: 1%;
+}
+#perifericos{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+#perf{
+    width: 20%;
+    height: 10rem;
+    padding: 1%;
+    border: 1px solid purple;
+    box-shadow: 0px 0px 25px 0px rgb(100, 0, 100);
+}
+#perf-title{
+    margin-left: 18%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: default;
+}
+#perf-title:hover{ 
+    cursor: default;
+}
+#mouse{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    transition: 200ms;
+    display: flex;
+}
+#mouse-name{
+    transition: 200ms;
+}
+#mouse-name:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+#teclado{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    transition: 200ms;
+    display: flex;
+}
+#key-name{
+    transition: 200ms;
+}
+#key-name:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+#fone{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    transition: 200ms;
+    display: flex;
+}
+#headset-name{
+    transition: 200ms;
+}
+#headset-name:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+/* configs frame */
+#configs-main{
+    width: 100%;
+    height: 13rem;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#configs-frame{
+    width: 20%;
+    padding: 1%;
+    border: 1px solid purple;
+    box-shadow: 0px 0px 25px 0px rgb(100, 0, 100);
+}
+#title-config{
+    margin-left: 18%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: default;
+}
+#processador{
+    display: flex;
+    margin: 5px;
+}
+#cpu{
+    cursor: default;
+    transition: 200ms;
+}
+#cpu:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+#mother{
+    display: flex;
+    margin: 5px;
+}
+#placa-mae{
+    cursor: default;
+    transition: 200ms;
+}
+#placa-mae:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+#memoria{
+    margin: 5px;
+    display: flex;
+    margin-left: 1%;
+}
+#ram{
+    cursor: default;
+    transition: 200ms;
+}
+#ram:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+#video{
+    margin: 5px;
+    display: flex;
+    margin-left: 1%;
+}
+#gpu{
+    cursor: default;
+    transition: 200ms;
+}
+#gpu:hover{
+    transform: translateX(30px);
+    transition: 200ms;
+    cursor: pointer;
+}
+span{
+    cursor: default;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#space{
+    width: 100px;
+    display: none;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: end;
+}
+#madeby{
+    margin-right: 10px;
+    margin-top: 25px;
+}

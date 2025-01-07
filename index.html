@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do GordaoN$</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/74640aae2a.js" crossorigin="anonymous"></script>
+</head>
+<body id="body" class="body-color">
+    <header id="header" class="header-claro header-escuro">
+        <h1 id="nomesite" style="margin-right: 37%; margin-top: 5px;">SITE DO GORDÃO</h1>
+        <div id="neon">
+            <button id="darkmode-switch" onclick="switchDark()" class="escuro-button claro-button"><img id="sol-lua" src="imgs/sun-solid.svg" class="sun moon"></button>
+        </div>
+    </header>
+    <section id="main-top-frame" class="claro escuro">
+        <div id="image-big-fat">
+            <img src="imgs/WhatsApp Image 2024-11-05 at 22.44.08.webp" alt="imagem perfil gordão" class="round-image">
+            <h1 id="name-title">João "Gordão" Bravo</h1>
+            <p id="cevaipaga" class="crimson-text-regular-italic">"CE VAI PAGA!"</p>
+            <div id="text-presentation-main">
+                <div id="text-presentation">
+                    <p class="text">João, mais conhecido como "GordaoN$", tem atualmente seus 19 anos e é um streamer na plataforma Twitch transmitindo, na maior parte do tempo, GTA V RP; sempre alegrando as tardes e também as madrugadas de quem o vê.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-mid-frame" class="claro escuro">
+        <div id="socials">
+            <div id="twitter" class="cards">
+                <button id="twt" class="button" onclick="openPage()"></button>
+            </div>
+            <div id="instagram" class="cards">
+                <button id="insta" class="button" onclick="openPage2()"></button>
+            </div>
+            <div id="twitch" class="cards">
+                <button id="ttv" class="button" onclick="openPage3()"></button>
+            </div>
+            <div id="tiktok" class="cards">
+                <button id="ttk" class="button" onclick="openPage4()"></button>
+            </div>
+        </div>
+    </section>
+    <section id="main-lower-frame" class="claro escuro">
+        <section id="perifericos">
+            <div id="perf">
+                <h1 id="perf-title">PERIFÉRICOS</h1>
+                <div id="mouse">
+                    <span>Mouse:</span><p id="mouse-name">Viper V3 PRO</p>
+                </div>
+                <div id="teclado">
+                    <span>Teclado:</span><p id="key-name">Apex PRO Mini</p>
+                </div>
+                <div id="fone">
+                    <span>Fone:</span><p id="headset-name">KZ ZSN PRO X</p>
+                </div>
+            </div>
+            <!--<p>
+                Perifericos
+                Viper V3 PRO <br>
+                Apex PRO Mini <br>
+                KZ ZSN PRO X
+            </p>-->
+        </section>
+        <section id="configs-main">
+            <div id="configs-frame">
+                <h1 id="title-config">Configurações</h1>
+                <div id="configs">
+                    <div id="processador">
+                        <span>Processador:</span><p id="cpu">AMD Ryzen 7 7800X3D</p>
+                    </div>
+                    <div id="mother">
+                        <span>Placa Mãe:</span><p id="placa-mae">PRO X670-P</p>
+                    </div>
+                    <div id="memoria">
+                        <span>RAM:</span><p id="ram">2x 16GB Viper Gaming DDR5</p>
+                    </div>
+                    <div id="video">
+                        <span>Placa de Vídeo:</span><p id="gpu">RTX 4070 Super</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer id="footer" class="claro escuro">
+        <p id="madeby">Made by <span id="griffin" style="margin-left: 2px;">Griffin</span></p>
+    </footer>
+</body>
+</html>
