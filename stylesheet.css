@@ -37,6 +37,7 @@ header{
 #nomesite{
     text-decoration: none;
     text-shadow: 5px 5px black;
+    margin-right: 50%;
 }
 .text{
     font-family: "Open Sans", sans-serif;
